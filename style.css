@@ -65,7 +65,7 @@ marquee{
 }
 .sp1 {
 	color: orange;
-	font-size: 70px;
+	font-size: 4rem;
 	font-weight: 600;
 }
 .sp2 {
@@ -101,7 +101,8 @@ marquee{
 	margin: 50px 0px 80px;
 	display: flex;
 	justify-content: center;
-    font-size: 40px;
+    align-items: center;
+    font-size: 2rem;
 }
 
 .curriculam {
@@ -218,14 +219,14 @@ marquee{
     border-radius: 15px;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     justify-content: center;
-    width: 540px;
+   max-width: 540px;
     height: 630px;
     border-radius: 15px;
     background-color: rgba(255, 255, 255, 1);
 }
 
 .stories-left-contents-cards>img {
-    width: 540px;
+    width: 100%;
     height: 330px;
     display: flex;
     justify-content: center;
@@ -267,14 +268,14 @@ marquee{
     border-radius: 15px;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     justify-content: center;
-    width: 290px;
+    max-width: 290px;
     height: 300px;
     border-radius: 15px;
     background-color: rgba(255, 255, 255, 1);
 }
 
 .stories-right-contents-cards>img {
-    width: 290px;
+    width: 100%;
     height: 175px;
     display: flex;
     justify-content: center;
@@ -422,6 +423,7 @@ footer{
 		justify-content: center;
 		align-items: center;
 		gap: 35px;
+        padding: 20px ;
 	}
 	.arrow{
 		display: none;
@@ -429,35 +431,14 @@ footer{
 .stories-left-contents-cards{
     display: none;
 }
-    .stories-right-contents-cards {
-    position: relative;
-    gap: 20px;
-    border-radius: 15px;
-    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
-    justify-content: center;
-    max-width: 200px;
-    height: 300px;
-    background-color: rgba(255, 255, 255, 1);
-}
-
-.stories-right-contents-cards>img {
-    max-width: 200px;
-    height: 175px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px 15px 0px 0px;
-}
+   
 	#stories{
 		padding: 0px;
 	}
-    .stories{
+    
+	.stories{
         grid-template-columns: repeat(1,1fr);
     }
-	.stories-right{
-		display: grid;
-		grid-template-columns: repeat(2,1fr);
-	}
 	.stories-btn>button{
 		display: none;
 	}
