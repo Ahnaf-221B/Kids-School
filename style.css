@@ -48,6 +48,9 @@ nav {
 	border: none;
 	outline: none;
 }
+.hamburger {
+    display: none;
+}
 marquee{
 	color: orange;
 	padding: 20px 0px;
@@ -395,9 +398,18 @@ footer{
 }
 
 @media screen and (max-width: 576px) {
-	.nav1 h1, .nav2{
+    header>nav {
+        padding: 25px;
+        border: 1px solid rgba(254, 163, 1, 1);
+    }
+	.nav1 h1, .nav2, .btn1{
 		display: none;
 	}
+ 
+
+    .hamburger {
+    display: flex;
+}
 	#hero-sec{
 		display: flex;
 		flex-direction: column-reverse;
@@ -410,11 +422,31 @@ footer{
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		gap: 20px;
+		gap: 35px;
 	}
 	.arrow{
 		display: none;
 	}
+
+    .stories-right-contents-cards {
+    position: relative;
+    gap: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    justify-content: center;
+    width: 230px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.stories-right-contents-cards>img {
+    width: 230px;
+    height: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px 15px 0px 0px;
+}
 	#stories{
 		padding: 0px;
 	}
