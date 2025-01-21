@@ -25,6 +25,7 @@ nav {
 	gap: 40px;
 	list-style: none;
 	align-items: center;
+    font-size: 18px;
 }
 .li1 {
 	color: orange;
@@ -103,6 +104,7 @@ marquee{
 .curriculam {
 	display: flex;
     justify-content: space-between;
+    gap: 30px;
 	padding: 20px 200px;
 }
 .curri-1 {
@@ -360,7 +362,7 @@ footer{
     gap: 5px;
 }
 .footer-left p{
-	font-size: 17px;
+	font-size: 15px;
 }
 
 .footer-left-info {
@@ -369,10 +371,10 @@ footer{
 	color: white;
 }
 .footer-middle{
-	margin-left: 180px;
+	margin-left: 100px;
 }
 .footer-right{
-	margin-left: 200px;
+	margin-left: 160px;
 }
 .footer-middle-info{
 	display: flex;
